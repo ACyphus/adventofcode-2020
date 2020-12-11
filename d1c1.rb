@@ -7,6 +7,7 @@ input.each do |first_number|
     if first_number + second_number == 2020
       result = first_number * second_number
       puts "Success! #{first_number} * #{second_number} = #{result}"
+      return
     end
   end
 end
